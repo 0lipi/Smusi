@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gallery" />
+    <link rel="stylesheet" href="../Styles/Output.css" />
+    <title>Sumsi Gallerie</title>
+  </head>
+  <body>
+    <header id="header">
+      <!-- Logo -->
+      <a
+        id="headerLogo"
+        href="./LandingPage.html"
+        aria-label="Führt zurück auf die Startseite"
+      >
+        <img
+          src="../Assets/general/RLB_Logo_4c_NEW.png"
+          alt="Logo Raiffeisen Landesbank Kaernten"
+        />
+      </a>
+      <!-- Navbar -->
+      <section id="headerNav">
+        <button
+          id="homeBtn"
+          onclick="window.location.href='./LandingPage.html'"
+          aria-label="Home Button"
+        ></button>
+        <button
+          id="galleryBtn"
+          onclick="window.location.href='./GalleryPage.html'"
+          aria-label="Galerie Button"
+        ></button>
+        <button
+          id="participationInformationBtn"
+          onclick="window.location.href='./Participation.html'"
+          aria-label="Teilnahmebedingungen Button"
+        ></button>
+        <button
+          id="participateBtn"
+          onclick="window.location.href='./LandingPage.html#landingPartBtn'"
+          aria-label="Jetzt mitmachen"
+        ></button>
+      </section>
+
+      <!-- Language Button -->
+      <div id="langBtn">
+        <button id="langBtnDE">DE</button>
+        <div class="langBtnDividingLine"></div>
+        <button id="langBtnEN">EN</button>
+      </div>
+
+      <section id="headerNavHamburger">
+        <a href="#" id="hamburgerMenu" aria-label="Hamburger Icon"
+          ><img
+            id="hamburgerMenuIcon"
+            src="../Assets/general/hamburgermenu.svg"
+            alt="Hamburger Icon"
+        /></a>
+      </section>
+    </header>
+    <div id="hamburgerNavbar" class="hamburgerNavbar">
+      <div class="headerYellowLine"></div>
+      <button
+        onclick="window.location.href='./LandingPage.html'"
+        aria-label="Home Button"
+        id="homeBtnHamburgerMenu"
+      ></button>
+      <button
+        onclick="window.location.href='./GalleryPage.html'"
+        aria-label="Galerie Button"
+        id="galleryBtnhomeBtnHamburgerMenu"
+      ></button>
+      <button
+        onclick="window.location.href='./Participation.html'"
+        aria-label="Teilnahmebedingungen Button"
+        id="participationInformationBtnhomeBtnHamburgerMenu"
+      ></button>
+      <button
+        onclick="window.location.href='./LandingPage.html#landingPart'"
+        aria-label="Jetzt mitmachen"
+        id="participateBtnhomeBtnHamburgerMenu"
+      ></button>
+    </div>
+    <div class="headerYellowLine"></div>
+
+    <div id="cookieBanner">
+      <p id="cookieBannerText" class="cookieBannerText"></p>
+      <div id="cookieBannerLinks">
+          <a id="cookieBannerDatenschutz" class="cookieBannerLinksEffect" href="./PrivacyPolicy.html" aria-label="Link zum Datenschutz"></a>
+          <a id="cookieBannerCookies" class="cookieBannerLinksEffect" href="./Cookies.html" aria-label="Link zu den Cookie-Präferenzen"></a>
+      </div>
+      <button id="acceptCookiesBtn" class="blackBtn"></button>
+  </div>
+
+    <main id="GalleryPageMain">
+      <section id="galHero" class="generalheroHeading">
+        <h1 id="galHeroHead1"></h1>
+        <h1 id="galHeroHead2"></h1>
+      </section>
+
+      <section id="galInfo">
+        <div id="galInfoContent">
+          <p id="galInfoText"></p>
+          <a
+            href="./LandingPage.html#landingPartBtn"
+            class="blackBtn"
+            id="galInfoBtn"
+          ></a>
+        </div>
+        <img
+          id="galInfoImg"
+          src="../Assets/LandingPage/img/sumsi/webp/briefe.webp"
+          alt="Sumsi mit Brifen"
+        />
+      </section>
+
+      <div id="galleryHeadingContainer">
+        <h2 id="galleryHeading" class="generalHead generalHeadBlack">Hello</h2>
+      </div>
+
+      <section id="gallerySpaceholder">
+        <div class="gallery"></div>
+      </section>
+
+      <section id="popUpWindowSpaceholder"></section>
+    </main>
+
+    <footer id="footer">
+      <div id="footerContent">
+        <div id="footerContact">
+          <div id="footerContactHeading">
+            <h3 id="footerContactHead" class="footerHeadings"></h3>
+            <div class="footerYellowLine"></div>
+          </div>
+          <div id="footerContactOutput">
+            <p id="footerContactAdress"></p>
+            <a href="tel:+43463299300"
+              ><p id="footerContactPhone" aria-label="Telefonnummer"></p
+            ></a>
+            <a href="mailto:info@rbgk.raiffeisen.at"
+              ><p id="footerContactMail" aria-label="Email"></p
+            ></a>
+          </div>
+        </div>
+        <div id="footerMenu">
+          <div id="footerMenuHeading">
+            <h3 id="footerMenuHead" class="footerHeadings"></h3>
+            <div class="footerYellowLine"></div>
+          </div>
+          <div id="footerMenuContent">
+            <button
+              onclick="window.location.href='https://www.raiffeisen.at/ktn/rlb/de/meine-bank/raiffeisen-bankengruppe/impressum.html'"
+              aria-label="Führt auf die Impressum-Seite der Raiffeisen Bank"
+              id="footerMenuImpress"
+              class="footerRightsStyle"
+            ></button>
+            <button
+              onclick="window.location.href='./PrivacyPolicy.html'"
+              id="footerMenuPrivacy"
+              class="footerRightsStyle"
+              aria-label="Führt zur Seite mit dem Datenschutz"
+            ></button>
+            <button
+              onclick="window.location.href='https://www.raiffeisen.at/ktn/rlb/de/meine-bank/raiffeisen-bankengruppe/agb.html'"
+              aria-label="Führt auf die AGB-Seite der Raiffeisen Bank"
+              id="footerMenuTermsService"
+              class="footerRightsStyle"
+            ></button>
+            <button
+              onclick="window.location.href='./Participation.html'"
+              id="footerMenuTermsPart"
+              class="footerRightsStyle"
+              aria-label="Führt zu den Teilnahmebedingungen"
+            ></button>
+            <button
+              onclick="window.location.href='./Cookies.html'"
+              id="footerMenuCookies"
+              class="footerRightsStyle"
+              aria-label="Führt zur Cookie-Seite"
+            ></button>
+            <button
+              onclick="window.location.href='https://www.raiffeisen.at/ktn/rlb/de/meine-bank/raiffeisen-bankengruppe/disclaimer.html'"
+              aria-label="Führt auf die Disclaimer-Seite der Raiffeisen Bank"
+              id="footerMenuDisclaimer"
+              class="footerRightsStyle"
+            ></button>
+          </div>
+        </div>
+        <div id="footerSocials">
+          <div id="footerSocialsHeading">
+            <h3 id="footerSocialsHead" class="footerHeadings"></h3>
+            <div class="footerYellowLine"></div>
+          </div>
+          <div id="footerSocialIcons">
+            <a
+              href="https://www.facebook.com/Raiffeisen?wtsid=rdr_0irWBlQUtUrmF0G7I"
+              aria-label="Link zu Facebook"
+              ><img
+                class="footerSocialIcon"
+                src="../Assets/general/social_icons/facebook_icon.svg"
+                alt="Facebook Icon"
+            /></a>
+            <a
+              href="https://www.youtube.com/user/raiffeisen"
+              aria-label="Link zu YouTube"
+              ><img
+                class="footerSocialIcon"
+                src="../Assets/general/social_icons/youtube_icon.svg"
+                alt="YouTube Icon"
+            /></a>
+            <a
+              href="https://www.instagram.com/raiffeisen/"
+              aria-label="Link zu Instagram"
+              ><img
+                class="footerSocialIcon"
+                src="../Assets/general/social_icons/instagram_icon.svg"
+                alt="Instagram Icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <p id="footerCopy"></p>
+    </footer>
+    <script src="../Scripts/LoadContent.js"></script>
+    <script src="../Scripts/PopUp.js"></script>
+    <script src="../Scripts/HamburgerNav.js"></script>
+    <script src="../Scripts/CookieBanner.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../Scripts/Token.js"></script>
+    <script src="../Scripts/showvote.js"></script>
+  </body>
+</html>

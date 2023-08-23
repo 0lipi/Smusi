@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Home Page Informations" />
+    <link rel="stylesheet" href="../Styles/Output.css" />
+    <title>Sumsi Gewinnspiel</title>
+  </head>
+  <body>
+    <header id="header">
+      <!-- Logo -->
+      <a
+        id="headerLogo"
+        href="./LandingPage.html"
+        aria-label="Führt zurück auf die Startseite"
+      >
+        <img
+          src="../Assets/general/RLB_Logo_4c_NEW.png"
+          alt="Logo Raiffeisen Landesbank Kaernten"
+        />
+      </a>
+      <!-- Navbar -->
+      <section id="headerNav">
+        <button
+          id="homeBtn"
+          onclick="window.location.href='./LandingPage.html'"
+          aria-label="Home Button"
+        ></button>
+        <button
+          id="galleryBtn"
+          onclick="window.location.href='./GalleryPage.html'"
+          aria-label="Galerie Button"
+        ></button>
+        <button
+          id="participationInformationBtn"
+          onclick="window.location.href='./Participation.html'"
+          aria-label="Teilnahmebedingungen Button"
+        ></button>
+        <button
+          id="participateBtn"
+          onclick="window.location.href='./LandingPage.html#landingPartBtn'"
+          aria-label="Jetzt mitmachen"
+        ></button>
+      </section>
+
+      <!-- Language Button -->
+      <div id="langBtn">
+        <button id="langBtnDE">DE</button>
+        <div class="langBtnDividingLine"></div>
+        <button id="langBtnEN">EN</button>
+      </div>
+
+      <section id="headerNavHamburger">
+        <a href="#" id="hamburgerMenu" aria-label="Hamburger Icon"
+          ><img
+            id="hamburgerMenuIcon"
+            src="../Assets/general/hamburgermenu.svg"
+            alt="Hamburger Icon"
+        /></a>
+      </section>
+    </header>
+    <div id="hamburgerNavbar" class="hamburgerNavbar">
+      <div class="headerYellowLine"></div>
+      <button
+        onclick="window.location.href='./LandingPage.html'"
+        aria-label="Home Button"
+        id="homeBtnHamburgerMenu"
+      ></button>
+      <button
+        onclick="window.location.href='./GalleryPage.html'"
+        aria-label="Galerie Button"
+        id="galleryBtnhomeBtnHamburgerMenu"
+      ></button>
+      <button
+        onclick="window.location.href='./Participation.html'"
+        aria-label="Teilnahmebedingungen Button"
+        id="participationInformationBtnhomeBtnHamburgerMenu"
+      ></button>
+      <button
+        onclick="window.location.href='./LandingPage.html#landingPart'"
+        aria-label="Jetzt mitmachen"
+        id="participateBtnhomeBtnHamburgerMenu"
+      ></button>
+    </div>
+    <div class="headerYellowLine"></div>
+
+    <div id="cookieBanner">
+        <p id="cookieBannerText" class="cookieBannerText"></p>
+        <div id="cookieBannerLinks">
+            <a id="cookieBannerDatenschutz" class="cookieBannerLinksEffect" href="./PrivacyPolicy.html" aria-label="Link zum Datenschutz"></a>
+            <a id="cookieBannerCookies" class="cookieBannerLinksEffect" href="./Cookies.html" aria-label="Link zu den Cookie-Präferenzen"></a>
+        </div>
+        <button id="acceptCookiesBtn" class="blackBtn"></button>
+    </div>
+
+    <main id="landingPage">
+      <!-- hero -->
+      <section id="landingHero">
+        <div id="landingHeroHeading" class="generalheroHeading">
+          <h1 id="landingHeroHeading1"></h1>
+          <h1 id="landingHeroHeading2"></h1>
+        </div>
+        <a
+          id="landingHeroBtn"
+          href="#landingSum"
+          class="blackBtn"
+          aria-label="Mehr erfahren"
+        ></a>
+      </section>
+
+      <!-- intro -->
+      <section id="landingIntro">
+        <div id="landingIntroText">
+          <h2 id="landingIntroHeading"></h2>
+          <div id="landingIntroParagraphs">
+            <p id="landingIntroParagraph1"></p>
+            <p id="landingIntroParagraph2"></p>
+            <p id="landingIntroParagraph3"></p>
+          </div>
+          <div id="landingIntroGreetings">
+            <p id="landingIntroGreet"></p>
+            <img
+              src="../Assets/LandingPage/img/sumsi/webp/sumsi_unterschrift.webp"
+              alt="Sumsi unterschrift"
+            />
+          </div>
+        </div>
+        <div id="landingIntroImg">
+          <img
+            src="../Assets/LandingPage/img/sumsi/webp/verliebt.webp"
+            alt="Sumsi verliebt"
+          />
+        </div>
+      </section>
+
+      <!-- summary -->
+      <section id="landingSum">
+        <div id="landingSumHead">
+          <h2 id="landingSumHead1" class="generalHead generalHeadBlack"></h2>
+          <h2 id="landingSumHead2" class="generalHead generalHeadYellow"></h2>
+        </div>
+        <div id="landingSumSteps">
+          <div id="landingSumStep1" class="landingSumStep">
+            <img
+              src="../Assets/LandingPage/icons/step_by_step/palette_icon.svg"
+              alt="Malerpalette Icon"
+              class="summaryIcon"
+            />
+            <h3 id="landingSumStep1Head" class="landingSumStepHead"></h3>
+            <p id="landingSumStep1Text" class="landingSumStepText"></p>
+          </div>
+          <div id="landingSumStep2" class="landingSumStep">
+            <img
+              src="../Assets/LandingPage/icons/step_by_step/camera_icon.svg"
+              alt="Kamera Icon"
+              class="summaryIcon"
+            />
+            <h3 id="landingSumStep2Head" class="landingSumStepHead"></h3>
+            <p id="landingSumStep2Text" class="landingSumStepText"></p>
+          </div>
+          <div id="landingSumStep3" class="landingSumStep">
+            <img
+              src="../Assets/LandingPage/icons/step_by_step/upload_icon.svg"
+              alt="Wolke mit Pfeil"
+              class="summaryIcon"
+            />
+            <h3 id="landingSumStep3Head" class="landingSumStepHead"></h3>
+            <p id="landingSumStep3Text" class="landingSumStepText"></p>
+          </div>
+          <div id="landingSumStep4" class="landingSumStep">
+            <img
+              src="../Assets/LandingPage/icons/step_by_step/img_icon.svg"
+              alt="Bild Icon"
+              class="summaryIcon"
+            />
+            <h3 id="landingSumStep4Head" class="landingSumStepHead"></h3>
+            <p id="landingSumStep4Text" class="landingSumStepText"></p>
+          </div>
+          <div id="landingSumStep5" class="landingSumStep">
+            <img
+              src="../Assets/LandingPage/icons/step_by_step/heart_icon.svg"
+              alt="Herz Icon"
+              class="summaryIcon"
+            />
+            <h3 id="landingSumStep5Head" class="landingSumStepHead"></h3>
+            <p id="landingSumStep5Text" class="landingSumStepText"></p>
+          </div>
+          <div id="landingSumStep6" class="landingSumStep">
+            <img
+              src="../Assets/LandingPage/icons/step_by_step/present_icon.svg"
+              alt="Geschenk Icon"
+              class="summaryIcon"
+            />
+            <h3 id="landingSumStep6Head" class="landingSumStepHead"></h3>
+            <p id="landingSumStep6Text" class="landingSumStepText"></p>
+          </div>
+          <div id="landingSumStep7" class="landingSumStep">
+            <img
+              src="../Assets/LandingPage/icons/step_by_step/mail_icon.svg"
+              alt="Email Icon"
+              class="summaryIcon"
+            />
+            <h3 id="landingSumStep7Head" class="landingSumStepHead"></h3>
+            <p id="landingSumStep7Text" class="landingSumStepText"></p>
+          </div>
+        </div>
+
+        <div id="landingSumGreetings">
+          <p id="landingSumRight"></p>
+          <p id="landingSumConc"></p>
+          <div id="landingSumSumsiGreets">
+            <p id="landingSumGreets"></p>
+            <p id="landingSumSumsi"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Instructions -->
+      <section id="landingInst">
+        <div id="landingInstHead">
+          <h2 id="landingInstHead1" class="generalHead generalHeadBlack"></h2>
+          <h2 id="landingInstHead2" class="generalHead generalHeadYellow"></h2>
+        </div>
+        <div id="landingInstSteps">
+          <div
+            id="landingInstStep1"
+            class="landingInstStep landingInstStepBlue"
+          >
+            <div id="landingInstStep1Text" class="landingInstStepSplit">
+              <div>
+                <h3
+                  id="landingInstStep1Head1"
+                  class="landingInstStepBlueBlack"
+                ></h3>
+                <h3
+                  id="landingInstStep1Head2"
+                  class="landingInstStepBlueYellow"
+                ></h3>
+              </div>
+              <p id="landingInstStep1Cont" class="landingInstStepCont"></p>
+            </div>
+            <img
+              class="landingInstStepImg"
+              src="../Assets/LandingPage/img/sumsi/webp/malen.webp"
+              alt="Sumsi beim malen"
+            />
+          </div>
+          <div
+            id="landingInstStep2"
+            class="landingInstStep landingInstStepGrey"
+          >
+            <div id="landingInstStep2Text" class="landingInstStepSplit">
+              <div>
+                <h3
+                  id="landingInstStep2Head1"
+                  class="landingInstStepGreyBlack"
+                ></h3>
+                <h3
+                  id="landingInstStep2Head2"
+                  class="landingInstStepGreyYellow"
+                ></h3>
+              </div>
+              <p id="landingInstStep2Cont" class="landingInstStepCont"></p>
+            </div>
+            <img
+              class="landingInstStepImg"
+              src="../Assets/LandingPage/img/sumsi/webp/smartphone.webp"
+              alt="Sumsi am Smartphone"
+            />
+          </div>
+          <div
+            id="landingInstStep3"
+            class="landingInstStep landingInstStepBlue"
+          >
+            <div id="landingInstStep3Text" class="landingInstStepSplit">
+              <div>
+                <h3
+                  id="landingInstStep3Head1"
+                  class="landingInstStepBlueBlack"
+                ></h3>
+                <h3
+                  id="landingInstStep3Head2"
+                  class="landingInstStepBlueYellow"
+                ></h3>
+              </div>
+              <p id="landingInstStep3Cont" class="landingInstStepCont"></p>
+            </div>
+            <img
+              class="landingInstStepImg"
+              src="../Assets/LandingPage/img/sumsi/webp/laptop_wbg.webp"
+              alt="Sumsi am Laptop"
+            />
+          </div>
+          <div
+            id="landingInstStep4"
+            class="landingInstStep landingInstStepGrey"
+          >
+            <div id="landingInstStep4Text" class="landingInstStepSplit">
+              <div>
+                <h3
+                  id="landingInstStep4Head1"
+                  class="landingInstStepGreyBlack"
+                ></h3>
+                <h3
+                  id="landingInstStep4Head2"
+                  class="landingInstStepGreyYellow"
+                ></h3>
+              </div>
+              <p id="landingInstStep4Cont" class="landingInstStepCont"></p>
+            </div>
+            <img
+              class="landingInstStepImg"
+              src="../Assets/LandingPage/img/sumsi/webp/jubeln.webp"
+              alt="Sumsi jubelnd"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Participation Button (hide if Submission is closed)-->
+      <button id="landingPartBtn" class="yellowBtn"></button>
+
+      <!-- Participation Section (hide til landingPartBtn is clicked) -->
+      <section id="landingPart">
+        <div id="landingPartHeading">
+          <h2 id="landingPartHead1" class="generalHead generalHeadBlack"></h2>
+        </div>
+
+        <!-- Input Section (hide when submitted) -->
+        <div id="landingPartInputSection">
+            <h3 id="landingPartHead2"></h3>
+            <p id="landingPartSubHead"></p>
+            <form id="submissionForm" enctype="multipart/form-data">
+                <div class="landingPartInputField" id="landingPartFirstInput">
+                    <label for="landingPartFirstIn" id="landingPartFirst"></label>
+                    <input class="landingPartInputFieldInput" type="text" name="legalguardian_firstname" id="landingPartFirstIn" required/>
+                </div>
+                <div class="landingPartInputField" id="landingPartLastInput">
+                    <label for="landingPartLastIn" id="landingPartLast"></label>
+                    <input type="text" name="legalguardian_lastname" id="landingPartLastIn" required/>
+                </div>
+                <div class="landingPartInputField" id="landingPartMailInput">
+                    <label for="landingPartMailIn" id="landingPartMail"></label>
+                    <input type="email" name="email" id="landingPartMailIn" required />
+                </div>
+                <div class="landingPartInputField" id="landingPartChildInput">
+                    <label for="landingPartChildIn" id="landingPartChild"></label>
+                    <input type="text" name="child_firstname" id="landingPartChildIn" required/>
+                </div>
+                <div class="landingPartInputField" id="landingPartAgeInput">
+                    <label for="landingPartAgeIn" id="landingPartAge"></label>
+                    <input type="number" name="child_age" id="landingPartAgeIn" min="0" max="18" required/>
+                </div>
+                <div id="landingPartPicHeadInput">
+                    <label for="landingPartPicBtn" id="landingPartPicHead"></label>
+                    <input type="file" name="image" id="landingPartPicBtn" accept=".jpeg, .jpg, .png, .gif, .svg" required/>
+                    <p id="landingPartPicFile"></p>
+                </div>
+                <div id="imagePreview" class="mb-4"></div>
+                <div id="error" class="text-red-500" role="alert"></div>
+                <div id="landingPartCheck">
+                    <div id="landingPartCheckPrivCheck" class="landingPartCheckStyle">
+                        <input type="checkbox" name="approval_privacypolicy" id="landingPartCheckPriv" required/>
+                        <label for="landingPartCheckPriv" id="landingPartCheckPrivLabel"></label>    
+                    </div>
+                    <div id="landingPartCheckPartCheck" class="landingPartCheckStyle">
+                        <input type="checkbox" name="approval_participation" id="landingPartCheckPart" required/>
+                        <label for="landingPartCheckPart" id="landingPartCheckPartLabel"></label>
+                    </div>
+                    <div id="landingPartCheckMailCheck" class="landingPartCheckStyle">
+                        <input type="checkbox" name="approval_mailnotification" id="landingPartCheckMail" required/>
+                        <label for="landingPartCheckMail" id="landingPartCheckMailLabel"></label>
+                    </div>
+                </div>
+                <div id="preview"></div>
+                <button type="submit" id="landingPartSend" class="blackBtn" aria-label="Submit Form"></button>      
+            </form>
+        </div>   
+        
+        <!-- Submission done Section (hide until submission sent) -->
+        <div id="landingPartDone">
+          <h4 id="landingPartDoneHead"></h4>
+          <p id="landingPartDoneCont"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div id="footerContent">
+        <div id="footerContact">
+          <div id="footerContactHeading">
+            <h3 id="footerContactHead" class="footerHeadings"></h3>
+            <div class="footerYellowLine"></div>
+          </div>
+          <div id="footerContactOutput">
+            <p id="footerContactAdress"></p>
+            <a href="tel:+43463299300"
+              ><p id="footerContactPhone" aria-label="Telefonnummer"></p
+            ></a>
+            <a href="mailto:info@rbgk.raiffeisen.at"
+              ><p id="footerContactMail" aria-label="Email"></p
+            ></a>
+          </div>
+        </div>
+        <div id="footerMenu">
+          <div id="footerMenuHeading">
+            <h3 id="footerMenuHead" class="footerHeadings"></h3>
+            <div class="footerYellowLine"></div>
+          </div>
+          <div id="footerMenuContent">
+            <button
+              onclick="window.location.href='https://www.raiffeisen.at/ktn/rlb/de/meine-bank/raiffeisen-bankengruppe/impressum.html'"
+              aria-label="Führt auf die Impressum-Seite der Raiffeisen Bank"
+              id="footerMenuImpress"
+              class="footerRightsStyle"
+            ></button>
+            <button
+              onclick="window.location.href='./PrivacyPolicy.html'"
+              id="footerMenuPrivacy"
+              class="footerRightsStyle"
+              aria-label="Führt zur Seite mit dem Datenschutz"
+            ></button>
+            <button
+              onclick="window.location.href='https://www.raiffeisen.at/ktn/rlb/de/meine-bank/raiffeisen-bankengruppe/agb.html'"
+              aria-label="Führt auf die AGB-Seite der Raiffeisen Bank"
+              id="footerMenuTermsService"
+              class="footerRightsStyle"
+            ></button>
+            <button
+              onclick="window.location.href='./Participation.html'"
+              id="footerMenuTermsPart"
+              class="footerRightsStyle"
+              aria-label="Führt zu den Teilnahmebedingungen"
+            ></button>
+            <button
+              onclick="window.location.href='./Cookies.html'"
+              id="footerMenuCookies"
+              class="footerRightsStyle"
+              aria-label="Führt zur Cookie-Seite"
+            ></button>
+            <button
+              onclick="window.location.href='https://www.raiffeisen.at/ktn/rlb/de/meine-bank/raiffeisen-bankengruppe/disclaimer.html'"
+              aria-label="Führt auf die Disclaimer-Seite der Raiffeisen Bank"
+              id="footerMenuDisclaimer"
+              class="footerRightsStyle"
+            ></button>
+          </div>
+        </div>
+        <div id="footerSocials">
+          <div id="footerSocialsHeading">
+            <h3 id="footerSocialsHead" class="footerHeadings"></h3>
+            <div class="footerYellowLine"></div>
+          </div>
+          <div id="footerSocialIcons">
+            <a
+              href="https://www.facebook.com/Raiffeisen?wtsid=rdr_0irWBlQUtUrmF0G7I"
+              aria-label="Link zu Facebook"
+              ><img
+                class="footerSocialIcon"
+                src="../Assets/general/social_icons/facebook_icon.svg"
+                alt="Facebook Icon"
+            /></a>
+            <a
+              href="https://www.youtube.com/user/raiffeisen"
+              aria-label="Link zu YouTube"
+              ><img
+                class="footerSocialIcon"
+                src="../Assets/general/social_icons/youtube_icon.svg"
+                alt="YouTube Icon"
+            /></a>
+            <a
+              href="https://www.instagram.com/raiffeisen/"
+              aria-label="Link zu Instagram"
+              ><img
+                class="footerSocialIcon"
+                src="../Assets/general/social_icons/instagram_icon.svg"
+                alt="Instagram Icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <p id="footerCopy"></p>
+    </footer>
+    <script src="../Scripts/LoadContent.js"></script>
+    <script src="../Scripts/ContactForm.js"></script>
+    <script src="../Scripts/HamburgerNav.js"></script>
+    <script src="../Scripts/CookieBanner.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../Scripts/Token.js"></script>
+    <script src="../Scripts/Settings.js"></script>
+    <script src="../Scripts/Submit.js"></script>
+  </body>
+</html>

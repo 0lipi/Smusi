@@ -1,0 +1,1573 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ### FONTS ###################################################################################################################################*/
+
+@layer base
+{
+    @font-face 
+    {
+        font-family: tt0001m;
+        src: url(../Assets/general/fonts/tt0001m.ttf) format('truetype');
+    }
+
+    @font-face 
+    {
+        font-family: tt0003m;
+        src: url(../Assets/general/fonts/tt0003m.ttf);
+    }
+
+    @font-face 
+    {
+        font-family: tt0100m;
+        src: url(../Assets/general/fonts/tt0100m.ttf);
+    }
+
+    @font-face 
+    {
+        font-family: tt0372m;
+        src: url(../Assets/general/fonts/tt0372m.ttf);
+    }
+
+    @font-face 
+    {
+        font-family: tt0373m;
+        src: url(../Assets/general/fonts/tt0373m.ttf);
+    }
+
+    @font-face 
+    {
+        font-family: tt0759m;
+        src: url(../Assets/general/fonts/tt0759m.ttf);
+    }
+}
+
+/* ### TAG ELEMENST ###########################################################################################################################*/
+
+html
+{
+    @apply
+    flex
+    flex-col
+    justify-center
+    items-center
+    w-full
+}
+
+main
+{
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    w-full
+}
+
+body
+{
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+}
+
+input
+{
+    @apply
+    rounded-md
+}
+
+img
+{
+    @apply
+    h-1
+    w-1
+}
+
+*
+{
+    @apply
+    300:break-keep
+    break-all
+}
+
+/* ### GENERAL CLASSES ########################################################################################################################*/
+
+.blackBtn
+{
+    @apply
+    bg-RaiffeisenSchwarz
+    text-white
+    text-center
+
+    font-tt0759m
+
+    py-2
+    px-7
+    rounded-full
+
+    hover:bg-transparent
+    hover:backdrop-blur-lg
+    hover:text-RaiffeisenSchwarz
+    hover:border-4
+    hover:border-RaiffeisenSchwarz
+    hover:py-1
+}
+
+.yellowBtn
+{
+    @apply
+    bg-RaiffeisenGelb
+    text-RaiffeisenSchwarz
+    text-center
+    text-xl
+    font-tt0759m
+
+    py-2
+    px-7
+    rounded-full
+
+    hover:bg-transparent
+    hover:backdrop-blur-lg
+    hover:text-RaiffeisenSchwarz
+    hover:border-4
+    hover:border-RaiffeisenSchwarz
+    hover:py-1
+}
+
+.headerYellowLine
+{
+    @apply
+    h-1
+    bg-RaiffeisenGelb
+    my-3
+    rounded-full
+    w-full
+}
+
+.footerYellowLine
+{
+    @apply
+    h-1
+    bg-RaiffeisenGelb
+    rounded-full
+}
+
+.generalHead
+{
+    @apply
+    p-4
+    w-fit
+    font-tt0372m
+    750:text-2xl
+    550:text-xl
+    375:text-base
+    320:text-sm
+    text-xs
+}
+
+.generalHeadBlack
+{
+    @apply
+    bg-RaiffeisenSchwarz
+    text-white
+}
+
+.generalHeadYellow
+{
+    @apply
+    bg-RaiffeisenGelb
+}
+
+.generalheroHeading
+{
+    @apply
+    font-tt0373m
+    text-RaiffeisenSchwarz
+}
+
+.langBtnDividingLine
+{
+    @apply
+    h-4
+    border-l-2
+    border-RaiffeisenSchwarz
+}
+
+/* ### HEADER ######################################################################################################################*/
+
+#header
+{
+    @apply
+
+    flex
+    flex-row
+    items-center
+    justify-between
+    450:px-6
+    320:px-3
+    px-1
+    pt-4
+
+    w-full
+
+    font-tt0372m
+    text-base
+
+    1000:gap-4
+    320:gap-8
+    gap-4
+}
+
+#headerLogo
+{
+    @apply
+    1000:w-1/4
+    md:w-1/3
+    450:w-2/3
+    w-full
+    h-auto
+    hover:scale-scaleLogo
+}
+
+#headerLogo img
+{
+    @apply
+    w-full
+    h-full
+}
+
+#headerNav
+{
+    @apply
+    1000:flex
+    flex-row
+    items-center
+    justify-center
+    gap-10
+    w-full
+
+    hidden
+}
+
+#headerNav button
+{
+    @apply
+    hover:underline
+    hover:decoration-RaiffeisenSchwarz
+    hover:decoration-2
+}
+
+#langBtn
+{
+    @apply
+    flex
+    flex-row
+    items-center
+    justify-end
+    gap-2
+    1000:w-fit
+    w-full
+}
+
+#langBtn button
+{
+    @apply
+    hover:font-tt0373m
+}
+
+#headerNavHamburger
+{
+    @apply
+    flex
+    1000:hidden
+    w-fit
+    items-center
+    justify-end
+}
+
+#hamburgerMenu img
+{
+    @apply
+    1000:h-auto
+    750:p-1
+    h-12
+    w-full
+}
+
+#hamburgerNavbar
+{
+    @apply
+
+    hidden
+    flex-col
+    justify-center
+    items-center
+    gap-4
+
+    w-full
+
+    font-tt0372m
+    text-base
+}
+
+/* ### FOOTER ###############################################################################################################*/
+#footer
+{
+    @apply
+    bg-RaiffeisenGrau
+    text-white
+    font-tt0001m
+
+    flex
+    flex-col
+    justify-center
+    items-center
+    gap-4
+    p-4
+
+    w-full
+    h-full
+}
+
+#footerContent
+{
+    @apply
+
+    grid
+    xl:grid-cols-3
+    md:grid-cols-2
+    grid-cols-1
+    items-baseline
+    justify-center
+    w-full
+    h-full
+    gap-x-32
+    gap-y-8
+    md:px-24
+    320:px-16
+    px-8
+    py-4
+}
+
+.footerRightsStyle
+{
+    @apply
+    hover:underline
+}
+
+.footerHeadings
+{
+    @apply
+    font-tt0759m
+    text-lg
+}
+
+#footerContact
+{
+    @apply
+    flex
+    flex-col
+    gap-2
+}
+
+#footerMenu
+{
+    @apply
+    flex
+    flex-col
+    gap-2
+}
+
+#footerMenuHeading
+{
+    @apply
+    flex
+    flex-col
+}
+
+#footerMenuContent
+{
+    @apply
+    flex
+    flex-col
+    justify-center
+    items-start
+    gap-1
+}
+
+#footerSocials
+{
+    @apply
+    flex
+    flex-col
+    gap-2
+}
+
+#footerSocialIcons
+{
+    @apply
+    flex
+    320:flex-row
+    flex-col
+    gap-3
+    mt-2
+}
+
+.footerSocialIcon
+{
+    @apply
+    aspect-square
+    w-12
+    h-auto 
+    hover:scale-95
+}
+
+/* ### LANDING PAGE ###########################################################################################################################*/
+
+/* --- HERO ---------------------------------------------------------*/
+
+#landingHero
+{
+    @apply
+    bg-heroImgLP
+    bg-cover
+    bg-center
+
+    h-100ViewHeight
+    w-full
+
+    flex
+    flex-col
+    justify-center
+    items-center
+    gap-16
+}
+
+#landingHeroHeading
+{
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+}
+
+#landingHeroHeading1
+{
+    @apply
+    text-white
+    text-heroDynamic
+    text-center
+
+    bg-RaiffeisenSchwarz
+    py-3
+    px-5
+    w-fit
+}
+
+#landingHeroHeading2
+{
+    @apply
+    text-RaiffeisenSchwarz
+    text-heroDynamic
+    text-center
+
+    bg-RaiffeisenGelb
+    py-3
+    px-5
+    w-fit
+}
+
+#landingHeroBtn
+{
+    @apply
+    1500:text-heroBtnDynamic
+}
+
+/* --- INRO -----------------------------------------------------------------*/
+
+#landingIntro
+{
+    @apply
+    bg-RaiffeisenGelb
+    flex
+    1000:flex-row
+    flex-col
+    items-center
+    justify-center
+    gap-24
+
+    py-16
+    750:px-24
+    320:px-8
+    px-4
+}
+
+#landingIntroText
+{
+    @apply
+    1000:w-2/3
+    w-11/12
+    h-max
+
+    flex
+    flex-col
+    items-start
+    justify-center
+    gap-10
+}
+
+#landingIntroHeading
+{
+    @apply
+    font-tt0372m
+    text-lg
+}
+
+#landingIntroParagraphs
+{
+    @apply
+    flex
+    flex-col
+    gap-5
+
+    font-tt0001m
+    text-base
+}
+
+#landingIntroGreetings
+{
+    @apply
+    flex
+    flex-row
+    gap-2
+
+    font-tt0372m
+}
+
+#landingIntroGreetings img
+{
+    @apply
+    1000:w-1/6
+    w-1/5
+    h-auto
+}
+
+#landingIntroImg
+{
+    @apply
+    1000:w-1/3
+    w-2/4
+    h-auto
+    flex
+    items-center
+    justify-center
+}
+
+#landingIntroImg img
+{
+    @apply
+    w-full
+    h-auto
+}
+
+/* --- SUMMARY --------------------------------------------------*/
+
+#landingSum
+{
+    @apply
+    flex
+    flex-col
+    gap-20
+
+    items-center
+    justify-center
+
+    py-20
+
+    bg-RaiffeisenGrafikgrau20
+
+    w-full
+}
+
+#landingSumHead
+{
+    @apply
+    flex
+    flex-col
+    items-start
+    w-full
+}
+
+#landingSumSteps 
+{
+    @apply
+    grid
+    1500:grid-cols-4
+    1000:grid-cols-3
+    sm:grid-cols-2
+    grid-cols-1
+    gap-14
+    w-4/5
+    h-full
+    items-baseline
+    justify-center
+}
+
+.summaryIcon
+{
+    @apply
+    bg-RaiffeisenGelb
+    p-8
+    rounded-3xl
+    sm:w-2/3
+    w-2/4
+    h-auto
+    aspect-square
+}
+
+.landingSumStep
+{
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    gap-3
+
+    text-center
+}
+
+.landingSumStepHead
+{
+    @apply
+    font-tt0373m
+    text-base
+}
+
+.landingSumStepText
+{
+    @apply
+    font-tt0001m
+}
+
+#landingSumGreetings
+{
+    @apply
+    flex
+    flex-col
+    w-4/5
+    gap-2
+    
+    font-tt0001m
+}
+
+#landingSumSumsiGreets
+{
+    @apply
+    flex
+    flex-row
+    gap-1
+}
+
+#landingSumSumsi
+{
+    @apply
+    font-bold
+}
+
+/* --- INSTRUCTION -----------------------------------------------------------*/
+
+#landingInst
+{
+    @apply
+    flex
+    flex-col
+
+    gap-8
+    py-20
+
+    w-full
+}
+
+.landingInstStepSplit
+{
+    @apply
+    1000:w-2/3
+    w-11/12
+    flex
+    flex-col
+    gap-4
+}
+
+.landingInstStepImg
+{
+    @apply
+    1000:w-1/5
+    w-1/3
+    h-auto
+}
+
+.landingInstStep
+{
+    @apply
+    flex
+    1000:flex-row
+    flex-col
+
+    items-center
+    justify-center
+    1000:gap-20
+    gap-4
+
+    w-4/5
+    p-8
+    rounded-3xl
+}
+
+.landingInstStepBlue
+{
+    @apply
+    bg-RaiffeisenGrafikblau100
+    text-white
+}
+
+.landingInstStepGrey
+{
+    @apply
+    bg-RaiffeisenGrafikgrau20
+}
+
+#landingInstSteps
+{
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+
+    gap-10
+}
+
+#landingInstHead1
+{
+    @apply
+    bg-RaiffeisenSchwarz
+    text-white
+    p-3
+    w-fit
+}
+
+#landingInstHead2
+{
+    @apply
+    bg-RaiffeisenGelb
+    p-3
+    w-fit
+}
+
+.landingInstStepBlueBlack
+{
+    @apply
+    bg-RaiffeisenSchwarz
+    w-fit
+    px-2
+    py-1
+
+    font-tt0372m
+    text-xl
+}
+
+.landingInstStepBlueYellow
+{
+    @apply
+    bg-RaiffeisenGelb
+    text-RaiffeisenSchwarz
+    w-fit
+    px-2
+    py-1
+
+    font-tt0372m
+    text-xl
+}
+
+.landingInstStepGreyBlack
+{
+    @apply
+    bg-RaiffeisenSchwarz
+    text-white
+    w-fit
+    px-2
+    py-1
+
+    font-tt0372m
+    text-xl
+}
+.landingInstStepGreyYellow
+{
+    @apply
+    bg-RaiffeisenGelb
+    w-fit
+    px-2
+    py-1
+
+    font-tt0372m
+    text-xl
+}
+
+.landingInstStepCont
+{
+    @apply
+    font-tt0001m
+    text-lg
+}
+
+/* --- LANDING PART ----------------------------------------------------------*/
+#landingPart
+{
+    @apply
+    bg-RaiffeisenGelb
+
+    hidden
+    flex-col
+    justify-center
+    items-center
+
+    gap-10
+
+    py-10
+    w-full
+}
+
+#landingPartHeading
+{
+    @apply
+    flex
+    justify-start
+    w-full
+}
+
+#landingPartInputSection
+{
+    @apply
+    flex
+    flex-col
+    items-start
+    justify-center
+    1000:w-3/5
+    w-4/5
+    gap-4
+}
+
+#submissionForm
+{
+    @apply
+    w-full
+    flex
+    flex-col
+    gap-4
+}
+
+#landingPartInputSection input
+{
+    @apply
+    1000:h-8
+    h-9
+}
+
+#landingPartHead1
+{
+    @apply
+    bg-RaiffeisenSchwarz
+    text-white
+    w-fit
+}
+
+#landingPartHead2
+{
+    @apply
+    font-tt0373m
+    text-xl
+}
+
+#landingPartSubHead
+{
+    @apply
+    font-tt0372m
+}
+
+.landingPartInputField
+{
+    @apply
+    flex
+    flex-col
+    w-full
+
+    font-tt0001m
+}
+
+.landingPartInputFieldInput
+{
+    @apply
+    w-full
+}
+
+#landingPartCheck
+{
+    @apply
+    flex
+    flex-col
+    items-start
+    justify-center
+
+    text-RaiffeisenSchwarz
+    font-tt0001m
+}
+
+.landingPartCheckStyle
+{
+    @apply
+    flex
+    flex-row
+    items-center
+    justify-center
+    gap-4
+}
+
+#landingPartPicHeadInput
+{
+    @apply
+    flex
+    flex-col
+    justify-center
+    items-start
+    gap-3
+}
+
+.image-preview
+{
+     @apply
+     h-auto
+     640:w-1/3
+     450:w-2/3
+     w-11/12
+}
+
+#landingPartPicBtn
+{
+    @apply
+    pl-1
+    w-11/12
+}
+
+#file-upload-button
+{
+    @apply
+    rounded-full
+}
+
+#landingPartBtn
+{
+    @apply
+    my-14
+}
+
+#landingPartSend
+{
+    @apply
+    my-6
+    w-fit
+}
+
+#landingPartDone
+{
+    @apply
+    bg-RaiffeisenGrafikgrau60
+    w-4/5
+    rounded-sm
+    hidden
+
+    flex-col
+    gap-2
+    320:p-8
+    p-2
+}
+
+#landingPartDoneHead
+{
+    @apply
+    font-tt0373m
+}
+
+#landingPartDoneCont
+{
+    @apply
+    font-tt0003m
+}
+
+
+/* ### GALLERY ###################################################################################################################################*/
+
+/* --- HERO -----------------------------------------------*/
+
+#galHero
+{
+    @apply
+    bg-heroImgGA
+    bg-cover
+    bg-center
+
+    h-100ViewHeight
+    w-full
+
+    flex
+    flex-col
+    justify-center
+    items-center
+}
+
+#galHeroHead1
+{
+    @apply
+    bg-RaiffeisenSchwarz
+    text-heroDynamic
+    text-white
+
+    py-3
+    px-5
+    w-fit
+}
+
+#galHeroHead2
+{
+    @apply
+    bg-RaiffeisenGelb
+    text-heroDynamic
+
+    py-3
+    px-5
+    w-fit
+}
+
+/* --- INFO -------------------------------------------------*/
+#galInfo
+{
+    @apply
+    bg-RaiffeisenGelb
+    w-full
+    p-10
+
+    flex
+    flex-row
+    items-center
+    justify-center
+    gap-16
+
+    font-tt0372m
+}
+
+#galInfoContent
+{
+    @apply
+    flex
+    flex-col
+    items-center
+    justify-center
+    gap-8
+}
+
+#galInfoBtn
+{
+    @apply
+    640:w-1/3
+    450:w-2/4
+    375:w-3/4
+    w-full
+}
+
+#galInfo img
+{
+    @apply
+    w-1/5
+    h-auto
+    950:flex
+    hidden
+}
+
+/* --- GALLERY HEADING ---------------------------------------------*/
+
+#galleryHeadingContainer
+{
+    @apply
+    w-full
+    items-start
+    pt-20
+}
+
+/* --- GALLERY HOLDER ----------------------------------------*/
+
+#gallerySpaceholder
+{
+    @apply
+    flex
+    justify-center
+    items-center
+    w-11/12
+    h-fit
+    pb-20
+}
+
+.gallery
+{
+    @apply
+    grid
+    1000:grid-cols-3
+    640:grid-cols-2
+    grid-cols-1
+    gap-4
+    w-11/12
+    h-fit
+
+    py-20
+}
+
+.vote-icon
+{
+    @apply
+    h-6
+    w-auto
+}
+
+.image-container
+{
+    @apply
+    flex
+    flex-col
+    gap-4
+    relative
+
+    font-tt0003m
+
+    cursor-pointer
+    hover:scale-95
+}
+
+.gallery-image
+{
+    @apply
+    aspect-square
+    object-cover
+    h-auto
+    w-auto
+    rounded-lg
+}
+
+.info-container
+{
+    @apply
+    flex
+    320:flex-row
+    flex-col
+    justify-start
+    320:items-center
+    items-start
+    gap-2
+
+    absolute
+    left-2
+    bottom-2
+}
+
+.vote-container
+{
+    @apply
+    flex
+    flex-row
+    items-center
+    justify-center
+    gap-1
+    bg-white
+    bg-opacity-70
+    px-3
+    py-1
+    rounded-full
+}
+
+.child-container
+{
+    @apply
+    bg-white
+    bg-opacity-70
+    px-3
+    py-1
+    rounded-full
+}
+
+/* ### POPUP WINDOW ##############################################################################################################*/
+
+
+/*-------------------------*/
+#GalleryPageMain
+{
+    @apply
+    w-full
+    h-auto
+}
+
+#popUpWindowSpaceholder
+{
+    @apply
+    fixed
+    top-0
+    left-0
+
+    hidden
+    flex-col
+    items-center 
+    justify-center
+
+    bg-black 
+    bg-opacity-75
+    z-10
+    w-full
+    h-full
+    
+    overflow-scroll
+}
+
+.popup-container
+{
+    @apply
+    flex
+    flex-col
+    justify-center
+    items-center
+    w-full
+    h-90popupHeight
+}
+
+.popupContentContainer
+{
+    @apply
+    grid
+    grid-cols-1
+
+    750:flex
+    750:flex-row
+
+    justify-center
+    items-center
+    750:gap-5
+    w-11/12
+    h-full
+    bg-RaiffeisenGelb
+}
+
+.close-button
+{
+    @apply
+    flex
+    justify-center
+    items-end
+    w-fit
+
+    absolute
+
+    top-3
+    right-3
+
+    font-tt0373m
+    text-xl
+}
+
+.popupTextContainer
+{
+    @apply
+    flex
+    flex-col
+    750:w-1/3
+    gap-10
+    w-full
+    h-full
+
+    justify-center
+    items-start
+
+    relative
+}
+
+.popup-image-container
+{
+    @apply
+    750:w-2/3
+    w-full
+    h-full
+
+    object-cover
+
+    flex
+    justify-center
+    items-center
+    bg-RaiffeisenSchwarz
+}
+
+.popup-image
+{
+    @apply
+    w-full
+    h-full
+    object-cover
+}
+
+.popup-child-description
+{
+    @apply
+    w-full
+    flex
+    flex-col
+    justify-center
+    items-start
+    bg-RaiffeisenGelb
+}
+
+
+.popup-text-content
+{
+    @apply
+    flex
+    1000:flex-row
+    flex-col
+
+    1000:gap-3
+
+    w-full
+    justify-start
+    items-center
+}
+
+.popup-child-text-label
+{
+    @apply
+    font-tt0373m
+    1000:w-fit
+    w-full
+}
+
+.popup-child-paragraphs
+{
+    @apply
+    font-tt0372m
+    1000:w-fit
+    w-full
+}
+
+.popup-image-vote
+{
+    @apply
+    w-full
+    flex
+    flex-col
+    gap-2
+
+    bg-RaiffeisenGelb
+}
+
+.popup-image-vote-heading
+{
+    @apply
+    font-tt0373m
+    w-full
+}
+
+.popup-image-vote-text
+{
+    @apply
+    font-tt0003m
+}
+
+.popup-form
+{
+    @apply
+    flex
+    flex-col
+    gap-2
+
+    justify-center
+    items-start
+
+    w-full
+}
+
+.popup-email-vote
+{
+    @apply
+    font-tt0003m
+}
+
+.email-input
+{
+    @apply
+    w-11/12
+    h-8
+}
+
+.submit-button
+{
+    @apply
+    right-0
+    top-0
+
+    bg-RaiffeisenSchwarz
+    text-white
+    text-center
+
+    font-tt0003m
+
+    py-1
+    px-7
+    mt-2
+    rounded-full
+
+    hover:bg-transparent
+    hover:backdrop-blur-lg
+    hover:text-RaiffeisenSchwarz
+    hover:border-2
+    hover:border-RaiffeisenSchwarz
+    hover:py-1
+}
+/* ### PRIVACY POLICY ############################################################################################################*/
+
+#privacyIntroContainer
+{
+    @apply
+    flex
+    flex-col
+    gap-3
+
+    w-full
+}
+
+.privacyContContainer
+{
+    @apply
+    flex
+    flex-col
+    gap-3
+
+    w-full
+}
+
+.rightSectionContainer
+{
+    @apply
+    flex
+    flex-col
+    gap-4
+    w-11/12
+    mb-10
+}
+
+.primaryHeader
+{
+    @apply
+    font-tt0373m
+    text-2xl
+}
+
+.subHeader
+{
+    @apply
+    font-tt0372m
+    text-xl
+}
+
+.boldText
+{
+    @apply
+    font-tt0003m
+    text-lg
+}
+
+.contentTitle
+{
+    @apply
+    font-tt0373m
+}
+
+.contentPragraphs
+{
+    @apply
+    font-tt0001m
+}
+
+.textCurrentStatus
+{
+    @apply
+    font-tt0759m
+}
+
+/*### COOKIE BANNER #########################################################################################################################################*/
+
+#cookieBanner
+{
+    @apply
+    hidden
+    bg-Raiffeisen-Störer-Violett
+    1000:w-1/2
+    750:w-2/3
+    w-4/5
+
+    flex-col
+    justify-center
+    items-start
+
+    gap-4
+
+    p-5
+
+    rounded-lg
+
+    fixed
+    bottom-2
+    left-2
+
+    border-4
+    border-RaiffeisenSchwarz
+
+    text-white
+
+    z-10
+}
+
+#cookieBannerLinks
+{
+    @apply
+    flex
+    flex-col
+}
+
+.cookieBannerLinksEffect
+{
+    @apply
+    font-tt0759m
+    underline
+    decoration-2
+    hover:scale-95
+}
+
+.cookieBannerText
+{
+    @apply
+    font-tt0003m
+}
+
+#acceptCookiesBtn
+{
+    @apply
+    hover:bg-white
+    hover:text-RaiffeisenSchwarz
+}
