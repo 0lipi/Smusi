@@ -1,0 +1,243 @@
+{
+    "header": {
+        "home": "Home",
+        "gallery": "Gallery",
+        "participation": "Participation Information",
+        "takePart": "Join Now"
+    },
+
+    "footer": {
+        "contact": {
+            "heading": "Contact",
+            "adress": "Raiffeisen Landesbank Kärnten </br> Raiffeisenplatz 1 </br> 9020 Klagenfurt am Wörthersee",
+            "phone": "+43 4632 993 00",
+            "mail": "info@rbgk.raiffeisen.at"
+        },
+
+        "menu":{
+            "heading": "Legal",
+            "impress": "Impress",
+            "privacy": "Privacy Policy",
+            "TermsOfService": "Terms of Service",
+            "TermsOfParticipation": "Terms of Participation",
+            "cookies": "Cookie Preferences",
+            "disclaimer": "Disclaimer"
+        },
+
+        "socials":{
+            "heading": "Raiffeisen @Social Media"
+        },
+
+        "copyright": "&copy Raiffeisen Landesbank Kärnten"
+    },
+
+    "cookieBanner":{
+        "text": "This website uses cookies. By using the website, you consent to the use of cookies.",
+        "privacy": "Privacy Policy",
+        "cookies": "Cookie-preferences",
+        "button": "Accept Cookies"
+    },
+
+    "landingPage":{
+        "hero":{
+            "heading1": "Welcome to the grand",
+            "heading2": "Sumsi Drawing Contest",
+            "button": "Learn More"
+        },
+
+        "intro":{
+            "heading": "Dear children, dear parents!",
+            "paragraph1": "Just like every year, we are hosting our traditional Sumsi Drawing Contest. Once again, it's digital, with voting and a grand online gallery.",
+            "paragraph2": "Every parent who uploads and submits their child's drawing using the contact form below until fifth of November 31, 2023 will have it published in the grand Sumsi Gallery at www.raiffeisen-sumsi.at.",
+            "paragraph3": "I am looking forward to many colorful drawings & an exciting voting!",
+            "greetings": "Your Raiffeisen"
+        },
+
+        "summary":{
+            "heading1": "The greatest drawing contest of all time.",
+            "heading2": "Join & Win!",
+            "step1":{
+                "heading": "Drawing & Coloring",
+                "text": "Draw or paint your biggest wish"
+            },
+            "step2":{
+                "heading": "Digitizing", 
+                "text": "Photo or scan"
+            },
+            "step3":{
+                "heading": "Uploading", 
+                "text": "Submit your drawing by November 5, 2023"
+            },
+            "step4":{
+                "heading": "Exhibiting", 
+                "text": "The exhibition of the Sumsi Gallery starts on October 20, 2023"
+            },
+            "step5":{
+                "heading": "Voting", 
+                "text": "Vote for the top 5 drawings"
+            },
+            "step6":{
+                "heading": "Win Great Prizes", 
+                "text": "Get a chance to win one of 10 amazing prizes"
+            },
+            "step7":{
+                "heading": "Email Notification", 
+                "text": "The parents of the lucky winners will be notified via email"
+            },
+            "right": "The legal process is excluded.",
+            "conclusion": "I look forward to many colorful drawings. Join in and send me your dreams!",
+            "greets": "Yours Raiffeisen",
+            "sumsi": "Sumsi"
+        },
+
+        "instruction":{
+            "heading":{
+            "one": "Want to participate?",
+            "two": "Here's how it works!"
+            },
+            "step1": {
+                "heading1": "Step 1",
+                "heading2": "Drawing",
+                "content": "The theme of this year's contest: draw or color what your biggest wish for the next year is. What would you like to experience, see, or do? What is your dearest dream?"
+            },
+            "step2": {
+                "heading1": "Step 2",
+                "heading2": "Digitizing",
+                "content": "Please scan or photograph the artwork and upload it using the contact form below by November 5, 2023."
+            },
+            "step3": {
+                "heading1": "Step 3",
+                "heading2": "Exhibiting",
+                "content": "All artworks will be showcased in the grand Sumsi Gallery online. Your friends, family, grandparents, and neighbors can admire your drawing there."
+            },
+            "step4": {
+                "heading1": "Step 4",
+                "heading2": "Winning",
+                "content": "Every drawing is magnificent! Ten drawings will be randomly selected from all the submitted artworks. These ten will receive fantastic prizes!"
+            }
+            
+        },
+
+        "participation":{
+            "button": "Join Now!",
+            "heading1": "Sumsi Drawing Contest",
+            "heading2": "Registration Form",
+            "subheading": "Please fill out all required fields marked with *",
+            "first": "First Name*",
+            "last": "Last Name*",
+            "mail": "Email*",
+            "child": "First Name of Your Child*",
+            "age": "Age of Your Child*",
+            "picture":{
+                "heading": "Upload Image*",
+                "button": "Choose Image"
+            },
+            "checkbox":{
+                "privacy": "I agree to the privacy policy*",
+                "participation": "I agree to the terms of participation*",
+                "mail": "I would like to receive participation notification via email*"
+            },
+            "send": "Submit",
+            "done":{
+                "heading": "Thank you for your participation!",
+                "content": "Your artwork will soon be displayed in the Sumsi Gallery."
+            }
+        }
+    },
+
+    "gallery": {
+        "hero": {
+            "heading1": "Welcome to the grand",
+            "heading2": "Sumsi Gallery"
+        },
+        "info":{
+            "text": "Until November 5, 2023, there is an opportunity to exhibit drawings and pictures in the Sumsi Gallery.",
+            "button": "Join Now!"
+        },
+        "heading": "Sumsi Gallery 2023",
+        "popUp":{
+            "name": "Name:",
+            "age": "Age:",
+            "votes": "Total Votes:",
+            "vote":{
+                "heading": "Do you like this artwork?",
+                "text": "Then vote now.",
+                "mail": "Email*",
+                "button": "Submit"
+            }
+        }
+    },
+
+    "privacy":{
+        "heading": "Privacy Notice according to GDPR",
+        "subheading": "Privacy Notice according to Art. 13 GDPR for the Sumsi Drawing Competition",
+        "intro": "We treat your personal data confidentially and in accordance with the legal regulations. We hereby inform you about the processing of your personal data, as well as those of your child, and your rights and claims regarding data protection. The content and scope of data processing depend primarily on the information you provide through the online contact form during the drawing competition.",
+        "responsible":{
+            "heading": "Who is responsible for data processing and who can you contact?", 
+            "content1": "The Raiffeisenlandesbank Kärnten - Rechenzentrum und Revisionsverband, registered cooperative with limited liability",
+            "content10": "Raiffeisenplatz 1",
+            "content11": "9020 Klagenfurt am Wörthersee",
+            "content12": "T + 43 406 993 00",
+            "content13": "info@rbgk.raiffeisen.at",
+            "subheading": "Alternatively, you can also contact the data protection officer:",
+            "content20": "datenschutz@rbgk.raiffeisen.at",
+            "content21": "Raiffeisenplatz 1",
+            "content22": "9020 Klagenfurt am Wörthersee",
+            "content23": "T +43 463 993 00 - 12201"
+        },
+        "heading1": "What personal data is processed in the context of the drawing competition?",
+        "content1": "We process the personal data that we receive from you through the online contact form during the drawing competition. This includes your personal details and contact information (first and last name, email address), as well as those of your child (first name and age).",
+    
+        "heading2": "For what purpose are your personal data and those of your child processed?",
+        "content2": "The personal data provided by you and those of your child for participation in the drawing competition are used exclusively by Raiffeisen Landesbank for the implementation and processing of the drawing competition. The first name of your child and your email address are required for the identification and notification of the winners and are processed only for this purpose.",
+    
+        "heading3": "Who receives the personal data provided by you?",
+        "content3": "Your personal data and those of your child are only accessible to employees of Raiffeisen Landesbank Kärnten who are involved in the handling of the drawing competition in order to identify and notify the winners. Your data will not be disclosed to third parties.",
+    
+        "heading4": "How long will your personal data be stored?",
+        "content4": "Your personal data and those of your child will be deleted upon completion of the drawing competition and the identification and notification of the winners. The deletion of your data and that of your child will take place no later than November 30, 2020.",
+    
+        "heading5": "What data protection rights do you have?",
+        "content5": "You have the right to access, correct, delete or restrict the processing of your and your child's stored data, the right to data portability, the right to object to processing, and the right to withdraw consent in accordance with the requirements of data protection law. You can submit relevant requests to datenschutz@rbgk.raiffeisen.at. This does not affect your right to lodge a complaint with the competent data protection authority by emailing dsb@dsb.gv.at or sending a letter to Österreichische Datenschutzbehörde, Barichgasse 40-42, 1030 Vienna.",
+    
+        "currentStatus": "Status: October 2020"
+    },
+
+    "TermOfPart": {
+        "heading": "Terms and Conditions for the Sumsi Drawing Contest",
+        "content1": "Every parent who submits a drawing of their child (under the age of 14) through the provided contact form from October 19th to November 5th, 2021, has a chance to win the grand prize and other great prizes. All submitted drawings will be published in the Sumsi Gallery on www.raiffeisen-sumsi.at.",
+        "content2": "Ten drawings will be randomly selected from all the entries. These 10 winners will receive amazing prizes.",
+        "content3": "By participating in the Sumsi Drawing Contest, participants agree to the following terms and conditions:",
+        "paragraph1": "§ All natural persons are eligible to participate.",
+        "paragraph2": "§ Participation in the drawing contest is free, voluntary, and independent of banking transactions. Winners will be selected randomly. The decision is final, and prizes cannot be redeemed for cash, transferred, or exchanged.",
+        "paragraph3": "§ Participation through lottery associations or automated services is not allowed. Only one entry per person is permitted. In the event of winning, the prize must be claimed within 4 weeks of electronic notification; otherwise, the claim and the prize will be forfeited.",
+        "paragraph4": "§ The organizer assumes no liability for any technical difficulties.",
+        "paragraph5": "§ The participant declares that their submission to the drawing contest (the drawing) does not violate the rights of third parties, including copyrights and personal rights. They expressly agree to the publication of the drawing as part of the drawing contest or on the organizer's website.",
+        "paragraph6": "§ If other individuals were involved in the creation of the drawing or exclusive rights to the submitted contribution were granted to third parties, they must consent to the submission and subsequent publication as part of the drawing contest.",
+        "paragraph7": "§ The organizer reserves the right to request written proof from participants in certain circumstances to confirm compliance with the aforementioned requirements. Failure to provide the requested proof upon request may result in the exclusion of the participant by the organizer.",
+        "paragraph8": "§ The organizer reserves the right to exclude participants who violate the terms and conditions, criminal laws, or other regulations, or attempt to manipulate the drawing contest through technical means, from participating. In the event of exclusion from the drawing contest, the organizer is free to revoke and reclaim the prizes retrospectively.",
+        "paragraph9": "§ The organizer reserves the right to terminate or interrupt the drawing contest or the raffle at any time and without prior notice for important reasons. This includes situations where the scheduled course of the drawing contest or the raffle would be disrupted or prevented. Participants have no legal rights resulting from such actions."
+        },
+
+        "cookies": {
+            "heading": "Cookie Policy",
+            "content1": "We take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with legal regulations. In this privacy policy, we inform you about the processing of data within the scope of our website.",
+            "content2": "The use of our website is generally possible without providing your personal data separately. If personal data (e.g., name, address, or email addresses) is collected on our pages, it is always done on a voluntary basis to enable the use of the website. For example, the processing of the IP address is technically necessary and cannot be prevented.",
+            "responsible": {
+                "heading": "Data Protection Controller",
+                "content1": "This website is operated by Raiffeisenlandesbank Kärnten - Rechenzentrum und Revisionsverband, registered cooperative with limited liability, Raiffeisenplatz 1, 9020 Klagenfurt am Wörthersee.",
+                "content2": "Alternatively, you can also contact our data protection officer:",
+                "content3": "datenschutz@rbgk.raiffeisen.at</br>Raiffeisenplatz 1 | 9020 Klagenfurt am Wörthersee</br>T +43 463 993 00-12201"
+            },
+            "subheading": "Cookies",
+            "content3": "Our website uses so-called cookies. Cookies are text files that are stored on your device when you visit the website.",
+            "content4": "We use cookies to perform anonymous analysis of website usage. We also use cookies to provide you with additional features on the website, making interactions with the website easier and ensuring a smooth application (e.g., to facilitate navigation on a website or to store your preferences and settings for the next visit).",
+            "heading1": "Necessary Cookies",
+            "text1": "We process cookies that are necessary for the basic functions of the website based on our legitimate interest in presenting our content to you or based on contractual or legal obligations to provide you with information on our website.",
+            "heading2": "Functional Cookies",
+            "text2": "We use cookies that allow us to analyze website usage based on your consent given when using our website.",
+            "heading3": "Marketing Cookies",
+            "text3": "We also use cookies that allow us to present advertising tailored to your interests, based on your consent given when using our website.</br>Some cookies remain stored on your device until you delete them. They allow us to recognize your browser on your next visit. Most of the cookies we use are deleted after the end of your visit to our website (so-called session cookies).",
+            "text4": "Cookies can be blocked, disabled, or deleted. There are a variety of tools available to do this (including browser controls and settings). You can find information on this in the help section of the web browser you are using. If you disable all cookies used by us, the display of the website may be restricted, for example."
+        }         
+}

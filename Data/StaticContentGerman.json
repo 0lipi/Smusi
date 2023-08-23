@@ -1,0 +1,243 @@
+{
+    "header": {
+        "home": "Home",
+        "gallery": "Gallerie",
+        "participation": "Teilnahmeinformationen",
+        "takePart": "Jetzt mitmachen"
+    },
+
+    "footer": {
+        "contact": {
+            "heading": "Kontakt",
+            "adress": "Raiffeisen Landesbank Kärnten </br> Raiffeisenplatz 1 </br> 9020 Klagenfurt am Wörthersee",
+            "phone": "+43 4632 993 00",
+            "mail": "info@rbgk.raiffeisen.at"
+        },
+
+        "menu":{
+            "heading": "Rechtliches",
+            "impress": "Impressum",
+            "privacy": "Datenschutz",
+            "TermsOfService": "AGB",
+            "TermsOfParticipation": "Teilnahmebedingungen",
+            "cookies": "Cookie-Präferenzen",
+            "disclaimer": "Disclaimer"
+        },
+
+        "socials":{
+            "heading": "Raiffeisen @Social Media"
+        },
+
+        "copyright": "&copy Raiffeisen Landesbank Kärnten"
+    },
+
+    "cookieBanner":{
+        "text": "Diese Webseite verwendet Cookies. Durch die Nutzung der Webseite stimmst du der Verwendung von Cookies zu.",
+        "privacy": "Datenschutz",
+        "cookies": "Cookie-Präferenzen",
+        "button": "Cookies Akzeptieren"
+    },
+
+    "landingPage":{
+        "hero":{
+            "heading1": "Herzlich Willkommen beim großen",
+            "heading2": "Sumsi Malwettbewerb",
+            "button": "Mehr erfahren"
+        },
+
+        "intro":{
+            "heading": "Liebe Kinder, liebe Eltern!",
+            "paragraph1": "Wie jedes Jahr gibt es auch heuer unseren traditionellen Sumsi Malwettbewerb. Wieder digital, mit Voting und großer online-Galerie.",
+            "paragraph2": "Jedes Elternteil, das bis zum 31.Oktober 2022 die Zeichnung seines Kindes mithilfe des nachstehenden KOntaktformulars hochlädt und einreicht, wird anschließend in der großen Sumsi Galerie auf www.raiffeisen-sumsi.at veröffentlicht.",
+            "paragraph3": "Ich freue mich auf viele bunte Zeichnungen & ein spannendes Voting!",
+            "greetings": "Eure Raiffeisen"
+        },
+
+        "summary":{
+            "heading1": "Der beste Malwettbewerb aller Zeiten.",
+            "heading2": "Mach mit & gewinne!",
+            "step1":{
+                "heading": "Zeichnen & Malen",
+                "text": "Zeichne oder male deinen größten Wunsch"
+            },
+            "step2":{
+                "heading": "Digitalisieren", 
+                "text": "Foto oder Scan"
+            },
+            "step3":{
+                "heading": "Hochladen", 
+                "text": "Reiche dein Bild bis 5.November 2023 ein"
+            },
+            "step4":{
+                "heading": "Ausstellen", 
+                "text": "Die Ausstellung der Sumsi-Galerie läuft ab 20.Oktober 2023"
+            },
+            "step5":{
+                "heading": "Abstimmen", 
+                "text": "Stimme für die besten 5 Zeichnungen ab"
+            },
+            "step6":{
+                "heading": "Tolle Preise gewinnen", 
+                "text": "Mit Glück einen von 10 tollen Preisen gewinnen"
+            },
+            "step7":{
+                "heading": "Verständigung per E-Mail", 
+                "text": "Die Eltern der glücklichen Gewinner werden per E-Mail verständigt"
+            },
+            "right": "Der Rechtsweg ist ausgeschlossen.",
+            "conclusion": "Ich freu mich auf viele bunte Zeichnungen. Mach mit und schickt mir eure Träume!",
+            "greets": "Eure Raiffeisen",
+            "sumsi": "Sumsi"
+        },
+
+        "instruction":{
+            "heading":{
+                "one": "Du möchtest mitmachen?",
+                "two": "So funktioniert's!"
+            },
+            "step1": {
+                "heading1": "1.Schritt",
+                "heading2": "Zeichnen",
+                "content": "Das Thema des heurigen Wettbewerbs: zeichne oder male, was dein größter Wunsch für das nächste Jahr ist. Was möchtest du gern erleben, sehen, unternehmen, was ist Dein sehnlichster Traum?"
+            },
+            "step2": {
+                "heading1": "2.Schritt",
+                "heading2": "Digitalisieren",
+                "content": "Das Kunstwerk bitte scannen oder fotografieren und bis spätestens 5. November 2023 mittels nachstehendem Kontaktformular hochladen und einreichen."
+            },
+            "step3": {
+                "heading1": "3.Schritt",
+                "heading2": "Ausstellen",
+                "content": "In der großen Sumsi Galerie werden dann alle Kunstwerke online ausgestellt. Deine Freunde, Familie, Großeltern und Nachbarn können dort deine Zeichnung bewundern."
+            },
+            "step4": {
+                "heading1": "4.Schritt",
+                "heading2": "Gewinnen",
+                "content": "Jede Zeichnung ist großartig! Aus allen eingereichten Kunstwerken werden 10 Zeichnungen gezogen. Auf diese 10 warten tolle Preise!"
+            }
+            
+        },
+
+        "participation":{
+            "button": "Jetzt mitmachen!",
+            "heading1": "Sumsi Malwettbewerb",
+            "heading2": "Kontaktformular zum mitmachen",
+            "subheading": "Bitte alle Pflichtfelder welche mit * gekennzeichnet sind ausfüllen",
+            "first": "Vorname*",
+            "last": "Nachname*",
+            "mail": "E-Mail*",
+            "child": "Vorname Ihres Kindes*",
+            "age": "Alter Ihres Kindes*",
+            "picture":{
+                "heading": "Bild hochladen*",
+                "button": "Bild wählen"
+            },
+            "checkbox":{
+                "privacy": "Ich stimme den Datenschutzbestimmungen zu*",
+                "participation": "Ich stimme den Teilnahmebedingungen zu*",
+                "mail": "Ich möchte per E-Mail über die Teilnahme informiert werden*"
+            },
+            "send": "Abschicken",
+            "done":{
+                "heading": "Vielen Dank für deine Teilnahme!",
+                "content": "Dein Kunstwerk wird in Kürze in der Sumsi Galerie zu sehen sein."
+            }
+        }
+    },
+
+    "gallery": {
+        "hero": {
+            "heading1": "Herzlich Willkommen in der großen",
+            "heading2": "Sumsi-Galerie"
+        },
+        "info":{
+            "text": "Bis zum 5.November 2023 gibt es die Möglichkeit, Zeichnungen und Bilder in der Sumsi Galerie auszustellen.",
+            "button": "Jetzt mitmachen!"
+        },
+        "heading": "Sumsi-Galerie 2023",
+        "popUp":{
+            "name": "Name:",
+            "age": "Alter:",
+            "votes": "Stimmen gesamt:",
+            "vote":{
+                "heading": "Dir gefällt dieses Bild?",
+                "text": "Dann stimme jetzt ab.",
+                "mail": "E-Mail*",
+                "button": "Absenden"
+            }
+        }
+    },
+
+    "privacy":{
+        "heading": "Datenschutzhinweise lt. DSGVO",
+        "subheading": "Datenschutzhinweise gem. Art. 13 DSGVO für den Sumsi Malwettbewerb",
+        "intro": "Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Vorschriften. Wir informieren Sie hiermit über die Verarbeitung Ihrer personenbezogenen Daten sowie der Ihres Kindes und der Ihnen zustehenden datenschutzrechtlichen Ansprüche und Rechte. Der Inhalt und Umfang der Datenverarbeitung richtet sich maßgeblich nach den jeweils von Ihnen im Rahmen des Malwettbewerbs über das Online-Kontaktformular bekannt gegebenen Informationen.",
+        "responsible":{
+            "heading": "Wer ist für die Datenverarbeitung verantwortlich und an wen können Sie sich wenden?", 
+            "content1": "Für die Datenverarbeitung verantwortlich ist die Raiffeisenlandesbank Kärnten- Rechenzentrum und Revisionsverband, registrierte Genossenschaft mit beschränkter Haftung",
+            "content10": "Raiffeisenplatz 1",
+            "content11": "9020 Klagenfurt am Wörthersee",
+            "content12": "T + 43 406 993 00",
+            "content13": "info@rbgk.raiffeisen.at",
+            "subheading": "Alternativ können Sie sich auch gerne an den Datenschutzbeauftragten wenden:",
+            "content20": "datenschutz@rbgk.raiffeisen.at",
+            "content21": "Raiffeisenplatz 1",
+            "content22": "9020 Klagenfurt am Wörthersee",
+            "content23": "T +43 463 993 00 - 12201"
+        },  
+        "heading1": "Welche personenbezogenen Daten werden im Rahmen des Malwettbewerbes verarbeitet?",
+        "content1": "Wir verarbeiten jene personenbezogenen Daten, die wir von Ihnen im Rahmen des Malwettbewerbes über das Online-Kontaktformular erhalten haben.  Zu den personenbezogenen Daten zählen Ihre persönlichen Detailangaben und Kontaktdaten (Vor- und Nachname, E-Mail-Adresse) sowie die Ihres Kindes (Vorname und Alter).",
+
+        "heading2": "Für welchen Zweck werden Ihre personenbezogenen Daten sowie die Ihres Kindes verarbeitet?",
+        "content2": "Ihre angegebenen personenbezogenen Daten sowie die Ihres Kindes zur Teilnahme am Malwettbewerb werden von der Raiffeisen Landesbank ausschließlich zur Durchführung und Bearbeitung des Malwettbewerbs verwendet. Der Vorname Ihres Kindes sowie Ihre E-Mail-Adresse wird für die Ermittlung und Verständigung der Gewinner benötigt und nur zu diesem Zweck verarbeitet.",
+
+        "heading3": "Wer erhält die von Ihnen angegebenen personenbezogenen Daten?",
+        "content3": "Ihre personenbezogenen Daten sowie die Ihres Kindes erhalten nur jene MitarbeiterInnen der Raiffeisen Landesbank Kärnten, die den Malwettbewerb abwickeln, um die Gewinner ermitteln und verständigen zu können. Eine sonstige Weitergabe Ihrer Daten an Dritte erfolgt nicht.",
+
+        "heading4": "Wie lange werden Ihre angegebenen personenbezogenen Daten gespeichert?",
+        "content4": "Ihre personenbezogenen Daten sowie die Ihres Kindes werden nach Beendigung der Abwicklung des Malwettbewerbs und nach Ermittlung und Verständigung der Gewinner gelöscht. Die Löschung Ihrer Daten sowie jener Ihres Kindes erfolgt mit spätestens 30.11.2020.",
+
+        "heading5": "Welche Datenschutzrechte stehen Ihnen zu?",
+        "content5": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung oder Einschränkung der Verarbeitung Ihrer sowie Ihres Kindes gespeicherten Daten, ein Recht auf Datenübertragbarkeit, das Recht auf Widerspruch gegen die Verarbeitung sowie ein Recht auf Widerruf gemäß den Voraussetzungen des Datenschutzrechts. Diesbezügliche Anträge können Sie gerne an datenschutz@rbgk.raiffeisen.at richten. Davon unberührt bleibt Ihr Recht, sich bei der zuständige Datenschutzbehörde per E-Mail an dsb@dsb.gv.at oder postalisch an Österreichische Datenschutzbehörde, Barichgasse 40-42, 1030 Wien zu beschweren.",
+    
+        "currentStatus": "Stand: Oktober 2020"
+    },
+
+    "TermOfPart":{
+        "heading": "Teilnahmebedingungen für den Sumsi Malwettbewerb",
+        "content1": "Jeder Elternteil, der vom 19. Oktober bis 5. November 2021 eine Zeichnung seines Kindes (das das 14. Lebensjahr noch nicht vollendet hat) über das vorliegende Kontaktformular einreicht, hat die Chance auf den Hauptgewinn und auf weitere tolle Preise. Alle eingereichten Zeichnungen werden in der großen Sumsi Galerie auf www.raiffeisen-sumsi.at veröffentlicht.",
+        "content2": "Aus allen eingereichten Zeichnungen werden 10 Zeichnungen gezogen. Auf diese 10 Gewinner warten tolle Preise.",
+        "content3": "Mit der Teilnahme am Sumsi Malwettbewerb erklären die Teilnehmer, mit den folgenden Teilnahmebedingungen einverstanden zu sein:",
+        "paragraph1": "§  Teilnahmeberechtigt sind alle natürlichen Personen.",
+        "paragraph2": "§  Die Teilnahme am Malwettbewerb ist kostenlos, freiwillig und unabhängig von Bankgeschäften. Die Gewinner werden per Zufallsprinzip ermittelt. Der Rechtsweg ist ausgeschlossen. Gewinne können nicht in bar abgelöst, übertragen oder umgetauscht werden.",
+        "paragraph3": "§  Eine Teilnahme über Gewinnspiel-Vereine oder automatisierte Dienste ist nicht gestattet. Pro Person ist nur eine Teilnahme möglich. Der/Die TeilnehmerIn kann im Falle des Gewinnes die Sachpreise innerhalb von 4 Wochen ab elektronischer Verständigung entgegennehmen, danach verfällt dieser Anspruch und der Gewinn.",
+        "paragraph4": "§  Der Veranstalter übernimmt keine Haftung für etwaige technische Schwierigkeiten.",
+        "paragraph5": "§  Der/Die TeilnehmerIn erklärt, dass seine/ihre Einreichung zum Malwettbewerb (die Zeichnung) nicht gegen die Rechte Dritter, insbesondere Urheberrechte und Persönlichkeitsrechte, verstößt. Er/sie erklärt sich mit der Veröffentlichung der Zeichnung im Rahmen des Malwettbewerbs bzw. auf der Homepage des Veranstalters ausdrücklich einverstanden",
+        "paragraph6": "§  Falls andere Personen an der Erstellung der Zeichnung beteiligt waren oder Dritten exklusive Rechte am eingereichten Beitrag eingeräumt wurden, so müssen sich diese mit der Einreichung und späteren Veröffentlichung im Rahmen des Malwettbewerbs einverstanden erklären.",
+        "paragraph7": "§  Der Veranstalter behält sich das Recht vor, in bestimmten Anlassfällen von TeilnehmerInnen einen schriftlichen Nachweis für die Erfüllung der oben genannten Voraussetzungen einzufordern. Wird der Nachweis bei Aufforderung nicht erbracht, kann der/die TeilnehmerIn vom Veranstalter von der Teilnahme ausgeschlossen werden.",
+        "paragraph8": "§  Der Veranstalter behält sich das Recht vor, TeilnehmerInnen, die gegen die Teilnahmebedingungen, gegen Strafgesetze oder sonstige Vorschriften bzw. die guten Sitten verstoßen oder durch technische Manipulation versuchen, den Malwettbewerb in irgendeiner Form zu beeinflussen, von eben diesem auszuschließen. Im Falle eines Ausschlusses vom Malwettbewerb steht es dem Veranstalter frei, die Gewinne auch noch nachträglich abzuerkennen und zurückzufordern.",
+        "paragraph9": "§  Der Veranstalter behält sich das Recht vor, den Malwettbewerb bzw. die Verlosung jederzeit aus wichtigem Grund ohne Vorankündigung zu beenden oder zu unterbrechen. Dies gilt unter anderem, wenn der planmäßige Ablauf des Malwettbewerbs bzw. die Verlosung gestört oder verhindert werden würde. Dem/der TeilnehmerIn erwachsen daraus keinerlei Rechte."
+    },
+    
+    "cookies": {
+        "heading": "Cookie Richtlinien",
+        "content1": "Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Vorschriften. In dieser Datenschutzerklärung informieren wir Sie über die Datenverarbeitung im Rahmen unserer Website.",
+        "content2": "Die Nutzung unserer Webseite ist in der Regel ohne eigenständige Angabe Ihrer personenbezogenen  Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies stets, um die Nutzung der Website ermöglichen zu können oder auf freiwilliger Basis. Beispielsweise ist die Verarbeitung der IP-Adresse technisch bedingt und kann nicht unterbunden werden.",
+        "responsible":{
+            "heading": "Datenschutzrechtlicher Verantwortlicher",
+            "content1": "Diese Website wird von der Raiffeisenlandesbank Kärnten- Rechenzentrum und Revisionsverband, registrierte Genossenschaft mit beschränkter Haftung, Raiffeisenplatz 1, 9020 Klagenfurt am Wörthersee,  betrieben.",
+            "content2": "Alternativ können Sie sich auch gerne an unseren Datenschutzbeauftragten wenden:",
+            "content3": "datenschutz@rbgk.raiffeisen.at</br>Raiffeisenplatz 1 | 9020 Klagenfurt am Wörthersee</br>T +43 463 993 00-12201"
+        },
+        "subheading": "Cookies",
+        "content3": "Unsere Website verwendet so genannte Cookies. Cookies sind Textdateien, die beim Besuch der Website auf Ihrem Endgerät gespeichert werden.",
+        "content4": "Wir verwenden Cookies, um anonymisierte Analysen der Benutzung der Website durchzuführen.  Cookies setzen wir weiters dazu ein, Ihnen zusätzliche Funktionen auf der Website anbieten zu können, um Interaktionen mit der Webseite einfacher zu gestalten und eine fehlerfreie Anwendung sicherzustellen (z.B. zur Erleichterung der Navigation auf einer Website oder um Ihre Präferenzen und Einstellungen für den nächsten Besuch zu speichern).",
+        "heading1": "Erforderliche Cookies",
+        "text1": "Cookies, die für die grundlegenden Funktionen der Website notwendig sind, verarbeiten wir aufgrund unseres berechtigten Interesses, Ihnen unsere Inhalte präsentieren zu können, bzw. aufgrund vertraglicher oder gesetzlicher Verpflichtungen Ihnen auf unserer Website Informationen bereitzuhalten.",
+        "heading2": "Funktionelle Cookies",
+        "text2": "Cookies, die es uns ermöglichen die Analyse der Websitenutzung vorzunehmen, verwenden wir aufgrund Ihrer bei Benutzung unserer Website erklärten Einwilligung.",
+        "heading3": "Marketing-Cookies",
+        "text3": "Cookies, die es uns ermöglichen, Ihnen auf Ihre Interessen abgestimmte Werbung zu unterbreiten, verwenden wir ebenfalls aufgrund Ihrer bei Benutzung unserer Website erklärten Einwilligung.</br>Einige Cookies bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen. Die meisten der von uns verwendeten Cookies werden nach Ende des Besuchs unserer Website wieder gelöscht (sogenannte Session-Cookies).",
+        "text4": "Cookies können blockiert, deaktiviert oder gelöscht werden. Hierfür steht Ihnen eine Vielzahl von Werkzeugen zur Verfügung (einschließlich Browser-Steuerelemente und -Einstellungen).  Informationen hierzu finden Sie im Hilfebereich des von Ihnen benutzten Webbrowsers. Bei der Deaktivierung aller von uns verwendeten Cookies kann z.B. die Darstellung der Website eingeschränkt sein."
+    }
+}
